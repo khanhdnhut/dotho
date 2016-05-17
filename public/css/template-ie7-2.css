@@ -1,0 +1,108 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Portfolio Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */ 
+
+div.itemIntroText img {
+	margin-top: 15px;
+}
+
+br.clearfix {
+	overflow: hidden !important;
+	height: 0 !important;
+	line-height: 0;
+}
+
+.josForm .button {
+	padding: 0 2px;
+}
+
+/* ------------------- */
+/* -- typo.css  -- */
+/* ------------------- */
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+
+.ja-typo-bubble .ja-typo-bubblect { border-top: 5px; }
+
+.ja-typo-bubble p.ja-typo-bubble-meta { margin: -5px 0 0; }
+
+.ja-typo-legend { border-top: 5px; }
+
+/* FORM
+--------------------------------------------------*/
+/* Fieldset ----*/
+fieldset.ja-typo-fieldset {
+	margin-bottom: 20px;
+}
+
+fieldset.ja-typo-fieldset legend {
+	padding: 0 8px 5px;
+	margin-left: -16px;
+}
+
+/* Ja Showcase ---*/
+.ja-showcase-nav ul.pagination li {
+	display: inline;
+}
+
+.ja-megamenu ul.level1 li.mega {
+	border: solid 1px transparent;
+}
+
+
+#jac-wrapper .comment-quoteclose { display:inline-block }
+
+#jac-container-new-comment { height:auto !important; line-height:normal !important }
+
+.contact-form, .contact-links {
+	border: solid 1px transparent;
+}
+
+.contact-links ul {
+	zoom: 1;
+	border: solid 1px transparent;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+
+.contact .current .tabs {
+	float: left;
+}
+
+.contact-contactinfo, .contact-address {
+	display: block;
+	width: 100%;
+}
+
+#jac-wrapper .comment-menu .menu-content li a {
+	padding: 0px 8px;
+	height: 23px;
+	line-height: 23px;
+}
+
+#jac-wrapper .comment-contentmain {
+	margin-top: 10px;
+}
+
+#jac-wrapper ol.comment-list div.jac-childen-array .comment-contentmain {
+	margin-top: 2px;
+}
+
+li.list-item {
+	margin: -18px 0px 0px 0px !important; 
+}
+
+#form-login-remember .inputbox {
+	margin-top: -1px !important;
+}

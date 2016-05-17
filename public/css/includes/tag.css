@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2016, 4:17:41 PM
+    Author     : khanhdn1
+*/
+a {
+    color: #0073aa;
+    transition-duration: 0.05s;
+    transition-property: border, background, color;
+    transition-timing-function: ease-in-out;
+}
+a, div {
+    outline: 0 none;
+}
+
+a:link, a:visited {
+    color: rgb(23, 96, 147);
+    text-decoration: none;
+}
+
+.tagBlock {
+    font-size: 11px;
+    margin: 10px 0;
+}
+.tagList, .tagList li {
+    display: inline;
+
+}
+
+.column ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    line-height: 160%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.tagList .tag {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f0f7fc none repeat scroll 0 0;
+    border-color: #a5cae4 #a5cae4 #a5cae4 -moz-use-text-color;
+    border-image: none;
+    border-radius: 0 4px 4px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: rgb(23, 96, 147);
+    display: inline-block;
+    font-size: 11px;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+    padding: 1px 4px 1px 6px;
+    position: relative;
+}
+.tagList .tag:hover {
+    background-color: #d7edfc;
+    text-decoration: none;
+}
+.tagList .tag .arrow2 {
+    border-color: transparent #a5cae4 transparent transparent;
+    border-style: solid;
+    border-width: 8px 9px 8px 0;
+    display: block;
+    height: 2px;
+    left: -9px;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+.tagList .tag .arrow2::after {
+    border-color: transparent #f0f7fc transparent transparent;
+    border-style: solid;
+    border-width: 7px 8px 7px 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 1px;
+    position: absolute;
+    top: -7px;
+    width: 0;
+}
+.tagList .tag:hover .arrow2::after {
+    border-right-color: #d7edfc;
+}
+.tagList .tag::after {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #a5cae4;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 3px;
+    left: -2px;
+    position: absolute;
+    top: 6px;
+    width: 3px;
+}
